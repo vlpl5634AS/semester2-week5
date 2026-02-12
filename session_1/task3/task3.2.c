@@ -46,10 +46,10 @@ int main(void) {
     float fine = 0.0;
 
     printf("Enter violation type (1-Speeding, 2-Signal Jumping, 3-Illegal Parking): ");
-    scanf("%d", &violationType);
+    scanf("%d", &violation_type);
 
     printf("Is this a repeat offense? (0-No, 1-Yes): ");
-    scanf("%d", &repeatOffense);
+    scanf("%d", &repeat_offense);
 
     /* subtask 1: Determine base fine using switch */
 	// Complete your code here

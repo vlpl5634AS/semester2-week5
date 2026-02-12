@@ -59,7 +59,7 @@ int main(void) {
 
     /* Input */
     printf("Enter loan type (1-Home, 2-Car, 3-Personal): ");
-    scanf("%d", &loanType);
+    scanf("%d", &loan_type);
 
     printf("Enter age: ");
     scanf("%d", &age);
@@ -68,7 +68,7 @@ int main(void) {
     scanf("%f", &income);
 
     printf("Enter credit score: ");
-    scanf("%d", &creditScore);
+    scanf("%d", &credit_score);
 
     /* subtask1: Age eligibility check */
 	// Complete your code here
@@ -83,7 +83,7 @@ int main(void) {
 
         default:
             printf("Invalid loan type\n");
-            return 0;
+            return 1;
     }
 
     /* subtask 3: Output result */
