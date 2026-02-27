@@ -9,6 +9,11 @@ int main(void){
      // complete your code here
      for(int i=1; ; ){
 		 // todo
+            if(i%7==0){
+                printf("%d\n", i);
+            }
+            i++;
+            if(i>=100) break;
 	 }
 
     return 0;
